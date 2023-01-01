@@ -1,6 +1,6 @@
 # what is this
 
-[生 WebGL と TypeScript で Vercel のロゴを作る](https://zenn.dev/ixkaito/articles/webgl-typescript-vercel-logo)でNuxtロゴを書いてみました。勉強です勉強
+[生 WebGL と TypeScript で Vercel のロゴを作る](https://zenn.dev/ixkaito/articles/webgl-typescript-vercel-logo)でNuxtロゴもどきを書いてみました。勉強です勉強
 
 `yarn dev`でローカルサーバーを建てられます。
 
