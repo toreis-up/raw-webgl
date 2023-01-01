@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["dom", "dom.iterable", "ESNext", "ESNext.AsyncIterable"],
+    "moduleResolution": "node",
+    "strict": true,
+    "allowJs": true,
+    // default export を許容
+    "allowSyntheticDefaultImports": true,
+    // [...querySelectorAll()] の様な表記をエラーにしないう
+    "downlevelIteration": true,
+    // Enables experimental support for emitting type metadata for decorators which works with the module reflect-metadata.
+    "emitDecoratorMetadata": true,
+    // default import をエラーにしない (default import のヘルパーメソッドを生成する)
+    "esModuleInterop": true,
+    // デコレーターでエラーを表示しない
+    "experimentalDecorators": true,
+    // import 時にファイルの大文字小文字を区別する
+    "forceConsistentCasingInFileNames": true,
+    // 使用されてない変数をエラーにする
+    "noUnusedLocals": true,
+    // コンパイル結果を出力しない
+    "noEmit": true,
+    // 早期リターンを強要する (分岐条件内に return がないとエラー)
+    "noImplicitReturns": true,
+    // switch 内に break か return がないとエラー
+    "noFallthroughCasesInSwitch": true,
+    // JSON ファイルから型の抽出・生成ができるようにする
+    "resolveJsonModule": true,
+    // `*.d.ts` ファイツの方チェックを行わない (node_modules 内のライブラリの型定義ファイルの型チェックも行わない)
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/"]
+}
